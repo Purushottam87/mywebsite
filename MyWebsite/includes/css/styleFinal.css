@@ -1,0 +1,132 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body{
+     background-color: #DDEFE9;
+   }
+
+   .row li{
+     display: inline;
+     float: right;
+     padding-left: 3px;
+     margin: 20px 0 30px;
+   }
+   .bigcallout1 li{
+     float: left;
+   }
+
+
+
+
+   #mycarousel .item{
+
+     height: 200px;
+   }
+   #slide1{
+     background: url("C:/Users/admin/Desktop/MyWebsite/images/h1.jpg") top center no-repeat;
+     }
+     #slide2{
+      background: url("C:/Users/admin/Desktop/MyWebsite/images/h2.jpg") top center no-repeat;
+
+       }#slide3{
+         background: url("C:/Users/admin/Desktop/MyWebsite/images/h3.jpg")top center no-repeat;
+
+   }
+   #mycarousel2 .item{
+
+     height: 200px;
+   }
+   #slide11{
+      background: url("C:/Users/admin/Desktop/MyWebsite/images/h11.jpg")top center no-repeat;
+     }
+      #slide12{
+         background: url("C:/Users/admin/Desktop/MyWebsite/images/h13.jpg")top center no-repeat;
+      }
+       #slide13{
+       background: url("C:/Users/admin/Desktop/MyWebsite/images/harley007.jpg")top center no-repeat;
+
+     }
+     #mycarousel22 .item{
+
+       height: 200px;
+     }
+     #slide111{
+        background: url("C:/Users/admin/Desktop/MyWebsite/images/ds1.jpg")top center no-repeat;
+       }
+        #slide122{
+           background: url("C:/Users/admin/Desktop/MyWebsite/images/Purushu4.jpg")top center no-repeat;
+        }
+         #slide133{
+         background: url("C:/Users/admin/Desktop/MyWebsite/images/ds3.jpg")top center no-repeat;
+
+       }
+
+       footer{
+       background-color: #777;
+         font-size: 11px;
+         padding: 20px;
+
+       }
+
+
+
+        float: left;
+       top center no repeat;
+
+       }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}

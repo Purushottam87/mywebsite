@@ -1,0 +1,91 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   body{
+     background-color: #DCDCDC;
+   }
+   .navbar{
+     background-color: #FFFFE0;
+   }
+   #main{
+     background-color: lightcyan;
+   }
+   .navbar-brand{
+     padding: 0 20px;
+     width: 100%;
+   }
+   #seachinput{
+     width:200px;
+   }
+   .page-header li{
+     display: inline;
+     float: right;
+     padding-left: 3px;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   footer{
+   background: #575656;
+   font-family: sans-serif;
+ }
+ #slide1{
+   background: url(C:\Users\admin\Desktop\MyWebsite\images\carousel_small_01.jpg);
+ }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+#lmg{
+  width:100%;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+#lmg{
+  width:100%;
+}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+#lmg{
+  width:100%;
+}
+}
